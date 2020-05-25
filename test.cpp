@@ -2,7 +2,8 @@
 int main()
 {
 
-retur 0;
+return 0;
+
 
 
 
