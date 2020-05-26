@@ -1,14 +1,13 @@
 #include <iostream>
-namespace std
-int sum (int a, int b)
-{return a+b;}
+
+#include "calc.hpp"
+#include<fmt/format.h>
+
 int main()
 {
-cout << "heelo";
-cout << sum (3,2);
-return 0;
 
-
-
-
+    std::cout << "heelo\n";
+    std::cout <<  add(2 , 3)<<"\n";
+    fmt::print ("the answer is {}.", 42);
+    return 0;
 }
